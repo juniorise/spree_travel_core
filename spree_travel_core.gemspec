@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   # s.add_dependency 'spree', versions['spree']
   # s.add_dependency 'spree_extension'
   # s.add_dependency 'redis', "~> 4.0"
-  s.add_dependency 'rails', '~> 6.1.4'
+  s.add_dependency 'rails', '~> 7.0.0'
   s.add_dependency 'spree_core', versions['spreel']
   s.add_dependency 'spree_api'
   s.add_dependency 'spree_backend'
