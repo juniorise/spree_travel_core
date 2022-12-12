@@ -19,7 +19,7 @@
     <% if @option_type.new_record? %>
 	    <%= f.field_container :attr_type, class: ['form-group'] do %>
 	    	<%= f.label :attr_type, Spree.t(:attr_type) %> <span class="required">*</span>
-	    	<%= f.select :attr_type, ['amenity', 'selection', 'float', 'string', 'integer', 'date', 'boolean'], {}, :class => "fullwidth select2" %>
+	    	<%= f.select :attr_type, ['selection', 'float', 'string', 'integer', 'date', 'boolean', 'amenity'], {}, :class => "fullwidth select2" %>
 	    	<%= f.error_message_on :attr_type %>
 	    <% end %>
     <% else %>
